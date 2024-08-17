@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style:italic;
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        div[id]{
+           outline:5px solid black;
+            padding:5px;
+            width: 800px;
+            color:black;
+            font-style: italic;
+        }
+        [id=d1]{
+            background-color: blueviolet;
+        }
+        [id=d2]{
+            background-color: chartreuse;
+        }
+        [title^=boy]{
+            background-color: coral;
+        }
+        [title$=malle]{
+            background-color:violet;
+            
+        }
+        [title=soura]{
+            background-color:blue;
+        }
+        [id=d5]{
+            background-color: cornflowerblue;
+        }
+        [id=d6]{
+            background-color:orange;
+        }
+        [title~=chaleya]{
+            background-color: darkmagenta;
+        }
+        [title*=it]{
+            background-color: forestgreen;
+        }
+        [title|=H-anniversary]{
+            background-color:darkturquoise;
+        }
+</style>
+</head>
+<body>
+    <h1>Music player</h1>
+    <div id="d1">
+    <h3>Desi kalakar</h3>
+     <audio controls>
+        <source src="86-Desi kalakaar-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d2">
+    <h3>Aasa Kuda</h3>
+    <audio controls>
+     <source src="Aasa Kooda-2-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d3" title="boy">
+    <h3 title="boy">Starboy</h3>
+    <audio controls>
+        <source src="starboy.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d4" title="chuttam malle">
+    <h3 title="chuttam malle">Chuttamalle</h3>
+    <audio controls muted>
+        <source src="./[iSongs.info] 03 - Chuttamalle.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d5">
+    <h3>Darshana</h3>
+    <audio controls muted loop>
+        <source src="Darshana-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d6">
+    <h3>Emo em chestunnano</h3>
+    <audio controls>
+        <source src="Emo Em Chesthunnano – Evarevar-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d7" title="chaleya">
+    <h3>Chaleya</h3>
+    <audio controls>
+        <source src="Chaleya-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d8" title="soura">
+    <h3 >souraa</h3>
+    <audio controls muted>
+        <source src="souraa song Ringtone _ bharath-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d9" title="ride it">
+    <h3>ride it</h3>
+    <audio controls>
+        <source src="ride it.mp3" type="audio/mp3">
+    </audio>
+</div>
+<div id="d10" title="H-anniversary">
+    <h3>Heartbreak Anniversary</h3>
+    <audio controls>
+        <source src="Heartbreak Anniversary _ Engli-MobCup.vip.mp3" type="audio/mp3">
+    </audio>
+</div>
+</audio>
+</body>
+</html>
