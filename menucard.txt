@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            margin:0%;
+            font-size:50px;
+            color:white;
+        }
+        img{
+            position: relative;
+            float:left;
+            bottom:170px;
+            left:400px;
+            height:200px;
+            width:200px;
+            border:5px;
+            border-radius: 150px;
+        }
+        ol{
+            font-size:20px;
+            margin:12px;
+        }
+        ol h2:hover{
+            color:green;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        
+        }
+        h2{
+            color:darkblue;
+        }
+        li{
+            color:orangered;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+
+        }
+        ul li:hover{
+            color:red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+
+        }
+        ul{
+            font-family: sans-serif;
+        }
+        h1:active{
+            text-decoration:underline;
+            background-color: black;
+            color:blue;
+        }
+        li:nth-child(2n){
+            color:darkcyan;
+        }
+        li:nth-child(2n-1){
+            color:dodgerblue;
+        }
+        #d1{
+            position:relative;
+            left:700px;
+        }
+        #d2{
+            position: relative;
+            right:100px;
+        }
+        #d3{
+            position: relative;
+            left:100px;
+        }
+        #d4{
+            position: relative;
+            right:700px;
+            bottom:30px;
+        }
+       </style>
+    
+</head>
+<body>
+    <h1>FOOD MENU</h1></div>
+
+    <ol><h2>Main course</h2>
+        <ul>
+            <li>Cheeseburger</li>
+            <li>Cheese sandwich</li>
+            <li>chicken burgers</li>
+            <li>Spicy chicken</li>
+            <li>Hot dog</li>
+        </ul>
+    </ol>
+    <img src="./chicken.jpeg">
+    <div id="d1">
+    <ol>
+        <h2>Appitizers</h2>
+        <ul>
+            <li>Fruit salad</li>
+            <li>Cocktails</li>
+            <li>Nuggets</li>
+            <li>Sandwich</li>
+            <li>French Fries</li>
+        </ul>
+    </ol>
+    <span id="d2">
+    <img src="./download.jpeg">
+    </span>
+    </div>
+    <div id="d3">
+    <ol>
+        <h2>Beverages</h2>
+        <ul>
+            <li>Milk shake</li>
+            <li>Iced Tea</li>
+            <li>Orange Juice</li>
+            <li>Lemon Tea</li>
+            <li>coffee</li>
+        </ul>
+    </ol>
+</div>
+<div id="d4">
+<img src="./drinks.jpeg">
+</div>
+
+
+
+    
+</body>
+</html>
